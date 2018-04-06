@@ -23,7 +23,7 @@ var loader = new THREE.FontLoader();
 var pivot1,  pivot2,  pivot3;
 
 var backwall, floor, blueball;
-var cameraSource = [[0,6,10],[-5,6,10],[-10,6,15],[-6,6,10],[5,6,10]];
+var cameraSource = [[0,6,15],[-5,6,8],[-6,6,10],[6,6,10],[5,6,8]];
 var currCam = 0;
 
 function init() {
